@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../aux/utils.hpp
+
+../u8/core_char/mchar.hpp
+iostream
+-
+vector
+-
+sstream
+-
+utils.hpp
+../u8/core_char/utils.hpp
+
+/Users/linsock/PROJECTS/Studio_Interviews/testcli/testcli/u8lib/u8/core_string/mstr.cpp
+mstr.hpp
+/Users/linsock/PROJECTS/Studio_Interviews/testcli/testcli/u8lib/u8/core_string/mstr.hpp
+vector
+-
+
+/Users/linsock/PROJECTS/Studio_Interviews/testcli/testcli/u8lib/u8/core_string/mstr.hpp
+iostream
+-
+vector
+-
+sstream
+-
+mchar.hpp
+/Users/linsock/PROJECTS/Studio_Interviews/testcli/testcli/u8lib/u8/core_string/mchar.hpp
+utils.hpp
+/Users/linsock/PROJECTS/Studio_Interviews/testcli/testcli/u8lib/u8/core_string/utils.hpp
+
