@@ -128,7 +128,6 @@ int main(int argc, const char * argv[])
         vec.push_back(a);
         vec.push_back(b);
     }
-        
     std::cout << "-------- THE END --------" << std::endl;
     return 0;
 }
